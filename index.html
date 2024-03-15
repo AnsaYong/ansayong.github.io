@@ -23,6 +23,15 @@
             align-items: center;
         }
 
+        .logo img {
+            max-height: 40px; /* Set the maximum height of the logo */
+        }
+
+        .title {
+            flex-grow: 1; /* Allow the title to take up remaining space */
+            text-align: center; /* Center the title */
+        }
+
         nav ul {
             list-style-type: none;
             margin: 0;
@@ -92,6 +101,13 @@
 </head>
 <body>
     <header>
+        <!-- Logo and title -->
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo">
+        </div>
+        <div class="title">
+            <h1>EI Tracker</h1>
+        </div>
         <!-- Navigation elements -->
         <nav>
             <ul>
@@ -109,7 +125,7 @@
         <h1>Environmental Impact Tracker</h1>
         <p>Welcome to Environmental Impact Tracker, where every action counts towards a sustainable future.</p>
         <p>Join us in the journey towards a greener planet. Start tracking your impact today and make a difference, one step at a time.</p>
-        <p> Try it out <a href="http://127.0.0.1:8000/" class="button">here.</a></p>
+        <p><a href="http://127.0.0.1:8000/" class="button">TRY FOR FREE</a></p>
     </section>
     
     <!-- Feature Section -->
