@@ -3,21 +3,71 @@
 <head>
     <title>My Website</title>
     <style>
-        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Add any additional styles for your sections, buttons, etc. here */
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="#">Section 1</a>
-                </div> 
-                <div class="col">
-                    <a href="#">Section 2</a>
-                </div> 
-            </div>
-        </div>
+        <!-- Navigation elements -->
+        <nav>
+            <ul>
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- Cover image and project introduction -->
     <section id="cover">
@@ -27,21 +77,39 @@
         <a href="#" class="button">Visit the app</a>
     </section>
     
-    <main>
-        <!-- Sections -->
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
-        <section>
-            <h2>Why Choose Us</h2>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </section>
-        <section>
-            <h2>Contact Us</h2>
-            <p>Email: info@example.com</p>
-        </section>
-    </main>
+    <!-- Feature Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Description of Feature 1</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Description of Feature 2</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.jpg" alt="Feature 3">
+            <h3>Feature 3</h3>
+            <p>Description of Feature 3</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Description of what inspired the project. Make this a personal story.</p>
+        <p>This project is a Portfolio Project for Holberton School. <a href="https://holberton.edu/">Holberton School</a></p>
+        <ul>
+            <li><a href="#">Team Member 1</a></li>
+            <li><a href="#">Team Member 2</a></li>
+            <li><a href="#">Team Member 3</a></li>
+        </ul>
+        <p>GitHub Repository: <a href="#">Project Repository</a></p>
+    </section>
+
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
