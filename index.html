@@ -2,89 +2,7 @@
 <html>
 <head>
     <title>EI Tracker</title>
-    <style>
-        /* Your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-right: 20px;
-        }
-
-        nav ul li:last-child {
-            margin-right: 0;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        .project-link {
-            color: white;
-            text-decoration: none;
-        }
-
-        .project-link:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            padding: 20px;
-            margin-bottom: 20px;
-            background-color: #f9f9f9;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .feature {
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 20px;
-        }
-
-        .feature img {
-            max-width: 50%;
-            height: auto;
-        }
-
-        .feature-text {
-            flex: 1;
-            padding: 0 20px;
-        }
-
-        .feature:nth-child(odd) .feature-text {
-            order: -1;
-        }
-
-        .feature:nth-child(2) .feature-text {
-            order: 1;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -101,53 +19,52 @@
     </header>
     <!-- Cover image and project introduction -->
     <section id="cover">
-        <img src="banner.jpeg" alt="Cover Image" width="1200" height="300">
+        <img src="banner.jpeg" alt="Cover Image" width="1300" height="600">
         <h1>Environmental Impact Tracker</h1>
-        <p>Empowering individuals to track, visualize, and reduce their carbon footprint with personalized insights.</p>
-        <a href="http://127.0.0.1:8000/" class="button">Visit the app</a>
+        <p>Welcome to Environmental Impact Tracker, where every action counts towards a sustainable future. Join us in the journey towards a greener planet. Start tracking your impact today and make a difference, one step at a time.</p>
+        <p> Try it out <a href="http://127.0.0.1:8000/" class="button">here.</a></p>
     </section>
     
     <!-- Feature Section -->
     <section id="features">
         <h2>Key Features</h2>
         <div class="feature">
-            <img src="feature1.jpg" alt="Feature 1">
+            <img src="c_footprint.png" alt="Feature 1">
             <div class="feature-text">
-                <h3>Feature 1</h3>
-                <p>Description of Feature 1</p>
+                <h3>Track Your Impact, Change the World!</h3>
+                <p>Our innovative platform empowers you to calculate your personalized carbon footprint with ease. Simply input your daily activities, and watch as we transform your data into meaningful insights.</p>
+                <p>Gain a deep understanding of your environmental impact as we break down your carbon footprint into clear, actionable steps. From transportation to energy consumption, our comprehensive analysis guides you towards more sustainable choices.</p>
             </div>
         </div>
         <div class="feature">
             <div class="feature-text">
-                <h3>Feature 2</h3>
-                <p>Description of Feature 2</p>
+                <h3>Visualize Your Impact with Ease</h3>
+                <p>Our platform goes beyond raw data. We provide clear, insightful charts that visually represent your carbon footprint. Easily understand your environmental impact and track your progress over time. Empowering you to make informed decisions for a sustainable lifestyle.</p>
             </div>
             <img src="feature2.jpg" alt="Feature 2">
         </div>
         <div class="feature">
             <img src="feature3.jpg" alt="Feature 3">
             <div class="feature-text">
-                <h3>Feature 3</h3>
-                <p>Description of Feature 3</p>
+                <h3>Personalized Guidance for a Greener Tomorrow</h3>
+                <p>Receive tailored recommendations to reduce your carbon footprint. Our platform analyzes your data and provides actionable advice to help you make sustainable choices in your daily life. From transportation to energy usage, we're here to guide you towards a more eco-conscious lifestyle.</p>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <h2>About Us</h2>
-        <p>Description of what inspired the project. Make this a personal story.</p>
-        <p>This project is a Portfolio Project for Holberton School. <a href="https://holberton.edu/">Holberton School</a></p>
+        <h2>Bridging Geology and Software for a Sustainable Future</h2>
+        <p>Inspired by my passion for geology and sustainability, I created the Environmental Impact Tracker. This web application links geology with software development, offering affordable solutions to regulate your carbon footprint. My goal is to contribute to saving the environment for future generations.</p>
+        <p>As the sole developer, I've dedicated myself to this project. Every aspect, from design to development, reflects my commitment to sustainability and belief in technology's power for positive change. Join me in making a difference—one footprint at a time. Some of my other projects can be found below.</p>
         <ul>
-            <li><a href="#">Team Member 1</a></li>
-            <li><a href="#">Team Member 2</a></li>
-            <li><a href="#">Team Member 3</a></li>
+            <li><a href="https://github.com/AnsaYong">Github</a></li>
         </ul>
-        <p>GitHub Repository: <a href="#">Project Repository</a></p>
+        <p>GitHub Repository: <a href="https://github.com/AnsaYong/Env-Impact-Tracker">Project Repository</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 EI Tracker. All rights reserved.</p>
     </footer>
 </body>
 </html>
