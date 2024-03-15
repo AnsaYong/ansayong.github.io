@@ -2,93 +2,7 @@
 <html>
 <head>
     <title>EI Tracker</title>
-    <style>
-        /* Your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 15px;
-            padding: 10px;
-        }
-
-        p {
-            font-size: 18px; /* Set the font size for paragraphs */
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-right: 20px;
-        }
-
-        nav ul li:last-child {
-            margin-right: 0;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        .project-link {
-            color: white;
-            text-decoration: none;
-        }
-
-        .project-link:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            padding: 20px;
-            margin-bottom: 20px;
-            background-color: #f9f9f9;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .feature {
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 20px;
-        }
-
-        .feature img {
-            max-width: 50%;
-            height: auto;
-        }
-
-        .feature-text {
-            flex: 1;
-            padding: 0 20px;
-        }
-
-        .feature:nth-child(odd) .feature-text {
-            order: -1;
-        }
-
-        .feature:nth-child(2) .feature-text {
-            order: 1;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -105,7 +19,7 @@
     </header>
     <!-- Cover image and project introduction -->
     <section id="cover">
-        <img src="banner.jpg" alt="Cover Image" width="1000px" height="400">
+        <div class="cover-image"></div>
         <h1>Environmental Impact Tracker</h1>
         <p>Welcome to Environmental Impact Tracker, where every action counts towards a sustainable future.</p>
         <p>Join us in the journey towards a greener planet. Start tracking your impact today and make a difference, one step at a time.</p>
@@ -115,16 +29,14 @@
     <!-- Feature Section -->
     <section id="features">
         <h2>Key Features</h2>
-        <div class="row">
-            <div class="feature">
-                <img src="c_footprint.png" alt="Feature 1" width="300px" height="500">
-                <div class="feature-text">
-                    <h3>Track Your Impact, Change the World!</h3>
-                    <p>Our innovative platform empowers you to calculate your personalized carbon footprint with ease.</p>
-                    <p>Simply input your daily activities, and watch as we transform your data into meaningful insights.</p>
-                    <p>Gain a deep understanding of your environmental impact as we break down your carbon footprint into clear, actionable steps.</p>
-                    <p>From transportation to energy consumption, our comprehensive analysis guides you towards more sustainable choices.</p>
-                </div>
+        <div class="feature">
+            <img src="c_footprint.png" alt="Feature 1" width="300px" height="500">
+            <div class="feature-text">
+                <h3>Track Your Impact, Change the World!</h3>
+                <p>Our innovative platform empowers you to calculate your personalized carbon footprint with ease.</p>
+                <p>Simply input your daily activities, and watch as we transform your data into meaningful insights.</p>
+                <p>Gain a deep understanding of your environmental impact as we break down your carbon footprint into clear, actionable steps.</p>
+                <p>From transportation to energy consumption, our comprehensive analysis guides you towards more sustainable choices.</p>
             </div>
         </div>
         <div class="feature">
