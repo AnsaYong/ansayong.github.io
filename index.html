@@ -6,8 +6,8 @@
         /* Your CSS styles here */
         body {
             font-family: Arial, sans-serif;
-            margin: 15px;
-            padding: 10px;
+            margin: 0;
+            padding: 0;
         }
 
         p {
@@ -17,7 +17,7 @@
         header {
             background-color: #333;
             color: white;
-            padding: 20px 30px;
+            padding: 5px 5px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -25,12 +25,12 @@
 
         .logo img {
             max-height: 40px; /* Set the maximum height of the logo */
-            margin-right: 10px; /* Add margin to the right of the logo */
+            margin-right: 1px; /* Add margin to the right of the logo */
         }
 
         .title {
             flex-grow: 1; /* Allow the title to take up remaining space */
-            text-align: center; /* Center the title */
+            text-align: left;
         }
 
         nav ul {
@@ -105,7 +105,7 @@
     <header>
         <!-- Logo and title -->
         <div class="logo">
-            <img src="logo.jpeg" alt="Logo">
+            <img src="logo1.png" alt="Logo">
         </div>
         <div class="title">
             <h1>EI Tracker</h1>
@@ -119,15 +119,19 @@
             </ul>
         </nav>
         <!-- Project link -->
-        <a href="https://github.com/AnsaYong" class="project-link">Github</a>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/AnsaYong" class="project-link">Github</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- Cover image and project introduction -->
     <section id="cover">
-        <img src="banner.jpeg" alt="Cover Image" width="1000px" height="400">
+        <img src="banner6.png" alt="Cover Image" width="1000px" height="400">
         <h1>Environmental Impact Tracker</h1>
         <p>Welcome to Environmental Impact Tracker, where every action counts towards a sustainable future.</p>
         <p>Join us in the journey towards a greener planet. Start tracking your impact today and make a difference, one step at a time.</p>
-        <p><a href="http://127.0.0.1:8000/" class="button">TRY FOR FREE</a></p>
+        <p><a href="http://127.0.0.1:8000/" class="button">TRY IT FOR FREE</a></p>
     </section>
     
     <!-- Feature Section -->
